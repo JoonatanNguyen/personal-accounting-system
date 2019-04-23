@@ -1,0 +1,20 @@
+﻿<Window x:Class="Personal_Accounting_System_WPFApp.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Personal_Accounting_System_WPFApp"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="EmailLogin" HorizontalAlignment="Left" Height="23" Margin="336,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PasswordLogin" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="336,164,0,0"/>
+        <Button x:Name="LoginButton" Content="Log in" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="381,220,0,0" Click="LoginButton_Click"/>
+        <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="263,112,0,0"/>
+        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="263,164,0,0"/>
+        <Label x:Name="LoginStatusLabel" Content="Label" HorizontalAlignment="Left" Margin="563,109,0,0" VerticalAlignment="Top" Width="188"/>
+        <Label Content="Haven't had account yet?" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="272,271,0,0" Width="184"/>
+        <Button x:Name="RegisterRedirectButton" Content="Register Now" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="358,302,0,0" Click="RegisterRedirectButton_Click"/>
+
+    </Grid>
+</Window>

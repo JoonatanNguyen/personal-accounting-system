@@ -1,0 +1,47 @@
+﻿using Personal_Accounting_System_WPFApp.Dtos;
+using System;
+using System.Data.SqlClient;
+
+namespace Personal_Accounting_System_WPFApp.Repositories
+{
+    class UserRepository
+    {
+        public void RegisterUser(UserDto user, string hash)
+        {
+            var dbConn = new DatabaseConnection();
+           
+            var conn = new SqlConnection { ConnectionString = "Server=localhost\\SQLEXPRESS;Database=PersonalAccountingSystem;Trusted_Connection=True" };
+           
+
+            try
+            {
+                conn.Open();
+                Console.WriteLine("Database Connected");
+                
+                //SqlCommand insert = conn.CreateCommand();
+                string query = $"INSERT INTO Users (Name, DateOfBirth, Email, Password) " +
+                    $"VALUES ('{user.Name}', '{user.DateOfBirth}', '{user.Email}', '{hash}')";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.ExecuteNonQuery();
+                Console.WriteLine("Data Stored Into Database");
+                conn.Close();
+            }
+            catch (SqlException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public string GetHash(string email)
+        {
+            var dbConn = new DatabaseConnection();
+
+
+            var dataReader = dbConn.Select($"SELECT Password from Users WHERE Email = {email}");
+
+
+
+            return "";
+        }
+    }
+}
