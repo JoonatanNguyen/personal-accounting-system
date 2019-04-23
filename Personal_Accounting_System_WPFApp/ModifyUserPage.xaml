@@ -10,7 +10,9 @@
       Title="ModifyUserPage">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="67,145,0,0" TextWrapping="Wrap" Text="Modify User Page" VerticalAlignment="Top" FontSize="22"/>
-
+        <TextBlock HorizontalAlignment="Left" Margin="74,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"><Run Text="Modify User Page"/><InlineUIContainer>
+                
+            </InlineUIContainer></TextBlock>
+        <Button x:Name="Disable" Content="Disable User" Width="75" Margin="33,70,192,209" Click="DisableUser_Click"/>
     </Grid>
 </Page>
