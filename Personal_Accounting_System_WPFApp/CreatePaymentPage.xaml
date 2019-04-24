@@ -27,7 +27,9 @@
         <Label Content="Receiver Account" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,196,0,0" Width="97"/>
         <Label Content="Owner of purchase" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,233,0,0" Width="110"/>
         <Label Content="Category" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,269,0,0" Width="97"/>
-        <TextBox x:Name="DateInput" HorizontalAlignment="Left" Height="23" Margin="145,50,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DateInpu" HorizontalAlignment="Left" Height="23" Margin="-254,47,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Calendar HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,89,-299,0" Height="29"/>
+        <DatePicker x:Name="DateInput" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.512,1.328" Margin="145,49,0,0"/>
 
 
 

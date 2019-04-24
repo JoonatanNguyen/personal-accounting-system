@@ -22,10 +22,12 @@ namespace Personal_Accounting_System_WPFApp
         {
             var transactionService = new TransactionService();
 
+            var date = DateTime.Parse(DateInput.SelectedDate.ToString()); 
+
             transactionService.AddTransaction(new TransactionDto
             {
                 Amount = int.Parse(AmountTextBox.Text),
-                Date = new DateTime(2019, 04, 23),
+                Date = date,
                 ProductName = ProductNameTextBox.Text,
                 Explanation = ExplanationTextBox.Text,
                 PayerAccount = int.Parse(PayerAccountTextBox.Text),
