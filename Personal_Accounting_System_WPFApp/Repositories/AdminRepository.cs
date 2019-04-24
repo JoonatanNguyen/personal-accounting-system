@@ -1,5 +1,6 @@
 ﻿using Personal_Accounting_System_WPFApp.Dtos;
 using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 
 namespace Personal_Accounting_System_WPFApp.Repositories
@@ -32,7 +33,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 }
             }
         }
-        public void ModifyUser(UserDto user)
+        public void ModifyUser(UserDto user, int userId)
         {
             {
                 var conn = new SqlConnection { ConnectionString = Constants.ConnectionString };
@@ -42,7 +43,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                     conn.Open();
                     Console.WriteLine("Database Connected");
 
-                    string query = $"UPDATE Users SET Name = {user.Name}, DateOfBirth = {user.DateOfBirth}, Email = {user.Email} WHERE UserId = {user.UserId}";
+                    string query = $"UPDATE Users SET Name = '{user.Name}', DateOfBirth = {user.DateOfBirth}, Email = '{user.Email}' WHERE UserId = {userId}";
                     SqlCommand command = new SqlCommand(query, conn);
                     command.ExecuteNonQuery();
                     Console.WriteLine("Data Stored Into Database");

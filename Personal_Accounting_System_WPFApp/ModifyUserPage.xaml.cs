@@ -33,5 +33,31 @@ namespace Personal_Accounting_System_WPFApp
                 DisableTime = DateTime.Parse(today)
             });
         }
+
+        private void Modify_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+            var adminService = new AdminService();
+            //var userData = adminService.SelectUserData(userId);
+            //NameBox.Text = "Test";
+
+            //foreach (var data in userData)
+            //{
+            //    NameBox.Text = data.Name;
+            //    BirthBox.Text = data.DateOfBirth;
+            //    EmailBox.Text = data.Email;
+            //}
+
+
+            adminService.ModifyUser(new UserDto
+            {
+                Name = NameBox.Text,
+                DateOfBirth = BirthBox.Text,
+                Email = EmailBox.Text
+            },userId);
+
+            ShowUsersTransactions showuser = new ShowUsersTransactions();
+            NavigationService.Navigate(showuser);
+        }
+
     }
 }

@@ -3,6 +3,7 @@ using Personal_Accounting_System_WPFApp.Dtos;
 using Personal_Accounting_System_WPFApp.Repositories;
 using Personal_Accounting_System_WPFApp.Validators;
 using Personal_Accounting_System_WPFApp.Helpers;
+using System.Collections.Generic;
 
 namespace Personal_Accounting_System_WPFApp.Services
 {
@@ -21,5 +22,13 @@ namespace Personal_Accounting_System_WPFApp.Services
             adminRepository.DisableUser(user);
         }
 
+        public void ModifyUser(UserDto user, int userId)
+        {
+            adminRepository.ModifyUser(user, userId);
+        }
+        //public List<UserDto> SelectUserData(int userId)
+        //{
+        //    return adminRepository.SelectUserData(userId);
+        //}
     }
 }
