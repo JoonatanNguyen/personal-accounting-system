@@ -80,3 +80,44 @@ C:\Users\Duy17002\Documents\GitHub\personal-accounting-system\Personal_Accountin
 C:\Users\Duy17002\Documents\GitHub\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.csproj.CopyComplete
 C:\Users\Duy17002\Documents\GitHub\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.exe
 C:\Users\Duy17002\Documents\GitHub\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.pdb
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\bin\Debug\Personal_Accounting_System_WPFApp.exe.config
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\bin\Debug\Personal_Accounting_System_WPFApp.exe
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\bin\Debug\Personal_Accounting_System_WPFApp.pdb
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.csprojAssemblyReference.cache
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AddUserPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AdminWindow.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\CreatePaymentPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ModifyUserPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\LoginWindow.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ParentsWindow.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\RegisterWindow.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowKidsTransaction.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowUsersTransactions.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowUsersTransactionsPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\TodaysTransaction.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\UserHomePage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ViewReportPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\App.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp_MarkupCompile.cache
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp_MarkupCompile.lref
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AddUserPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AdminWindow.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\CreatePaymentPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ModifyUserPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\LoginWindow.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ParentsWindow.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\RegisterWindow.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowKidsTransaction.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowUsersTransactions.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowUsersTransactionsPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\TodaysTransaction.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\UserHomePage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ViewReportPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.g.resources
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.Properties.Resources.resources
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.csproj.GenerateResource.cache
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.csproj.CoreCompileInputs.cache
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.csproj.CopyComplete
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.exe
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.pdb
