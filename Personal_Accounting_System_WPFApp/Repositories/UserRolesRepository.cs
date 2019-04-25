@@ -69,7 +69,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 conn.Open();
                 query = $@"select Users.Name, UserRoles.RoleId, Users.UserId from UserRoles
                             inner join Users on UserRoles.UserId = Users.UserId
-                            where RoleId = 2; ";
+                            where RoleId = 2 AND DisableTime IS NULL;";
                 SqlCommand command = new SqlCommand(query, conn);
 
                 using (var reader = command.ExecuteReader())
@@ -106,7 +106,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 conn.Open();
                 query = $@"select Users.Name, UserRoles.RoleId, Users.UserId from UserRoles
                             inner join Users on UserRoles.UserId = Users.UserId
-                            where RoleId = 3; ";
+                            where RoleId = 3 AND DisableTime IS NULL;";
                 SqlCommand command = new SqlCommand(query, conn);
 
                 using (var reader = command.ExecuteReader())

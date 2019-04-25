@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Duy17002\Documents\GitHub\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\
 Personal_Accounting_System_WPFApp
 none
 false
 DEBUG;TRACE
-C:\Users\Duy17002\Documents\GitHub\personal-accounting-system\Personal_Accounting_System_WPFApp\App.xaml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\App.xaml
 13484886117
 
 35-1566205547
-15-269385058
+15-1393180297
 AddUserPage.xaml;AdminWindow.xaml;CreatePaymentPage.xaml;ModifyUserPage.xaml;LoginWindow.xaml;ParentsWindow.xaml;RegisterWindow.xaml;ShowKidsTransaction.xaml;ShowUsersTransactions.xaml;ShowUsersTransactionsPage.xaml;TodaysTransaction.xaml;UserHomePage.xaml;ViewReportPage.xaml;
 
 False

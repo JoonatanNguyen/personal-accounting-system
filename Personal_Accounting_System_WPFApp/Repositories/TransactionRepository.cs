@@ -153,39 +153,6 @@ namespace Personal_Accounting_System_WPFApp.Repositories
             }
 
             return transactions;
-            //try
-            //{
-            //    var query = $@"select receiver.Name, Transactions.Amount, Date, sender.UserId from Transactions
-            //    inner join Accounts senderAccount on Transactions.PayerAccount = senderAccount.Id
-            //    inner join Accounts receiverAccount on Transactions.ReceiverAccount = receiverAccount.Id
-            //    inner join Users sender on senderAccount.OwnerUsers = sender.UserId
-            //    inner join Users receiver on receiverAccount.OwnerUsers = receiver.UserId
-            //    where sender.UserId = {userId} AND Date > '{yesterdayDate}' AND Date < '{tomorrowDate}'";
-
-            //    conn.Open();
-            //    var command = new SqlCommand(query, conn);
-
-            //    using (var reader = command.ExecuteReader())
-            //    {
-            //        while (reader.Read())
-            //        {
-            //            transactions.Add(new TransactionDto
-            //            {
-            //                ReceiverName = reader["Name"]?.ToString(),
-            //                Amount = int.Parse(reader["Amount"]?.ToString() ?? "0"),
-            //                Date = Convert.ToDateTime(reader["Date"]?.ToString()),
-            //                PayerId = int.Parse(reader["UserId"]?.ToString() ?? "0")
-            //            });
-            //        }
-            //    }
-            //    conn.Close();
-            //    return transactions;
-            //}
-            //catch (SqlException e)
-            //{
-            //    Console.WriteLine(e.Message);
-            //    return transactions;
-            //}
         }
 
         public IEnumerable<TransactionDto> GetIncomeTransactions(int userId, TransactionShowOption selectionOption)
@@ -304,39 +271,6 @@ namespace Personal_Accounting_System_WPFApp.Repositories
             }
 
             return transactions;
-            //try
-            //{
-            //    var query = $@"select sender.Name, Transactions.Amount, Date, sender.UserId from Transactions
-            //    inner join Accounts senderAccount on Transactions.PayerAccount = senderAccount.Id
-            //    inner join Accounts receiverAccount on Transactions.ReceiverAccount = receiverAccount.Id
-            //    inner join Users sender on senderAccount.OwnerUsers = sender.UserId
-            //    inner join Users receiver on receiverAccount.OwnerUsers = receiver.UserId
-            //    where receiver.UserId = {userId} AND Date > '{yesterdayDate}' AND Date < '{tomorrowDate}'";
-
-            //    conn.Open();
-            //    var command = new SqlCommand(query, conn);
-
-            //    using (var reader = command.ExecuteReader())
-            //    {
-            //        while (reader.Read())
-            //        {
-            //            transactions.Add(new TransactionDto
-            //            {
-            //                PayerName = reader["Name"]?.ToString(),
-            //                Amount = int.Parse(reader["Amount"]?.ToString() ?? "0"),
-            //                Date = Convert.ToDateTime(reader["Date"]?.ToString()),
-            //                PayerId = int.Parse(reader["UserId"]?.ToString() ?? "0")
-            //            });
-            //        }
-            //    }
-            //    conn.Close();
-            //    return transactions;
-            //}
-            //catch (SqlException e)
-            //{
-            //    Console.WriteLine(e.Message);
-            //    return transactions;
-            //}
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿
-
 using System;
 
 namespace Personal_Accounting_System_WPFApp.Dtos
