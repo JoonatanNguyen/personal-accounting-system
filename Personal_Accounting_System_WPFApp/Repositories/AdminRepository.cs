@@ -18,8 +18,6 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                     conn.Open();
                     Console.WriteLine("Database Connected");
 
-                    //string query = $"UPDATE Users SET DisableTime = '{user.DisableTime}' Where UserId = {user.UserId}";
-                    //SqlCommand command = new SqlCommand(query, conn);
                     SqlCommand command = new SqlCommand("UPDATE Users SET DisableTime = @date Where UserId = @userId", conn);
                     command.Parameters.AddWithValue("@date", user.DisableTime);
                     command.Parameters.AddWithValue("@userId", user.UserId);

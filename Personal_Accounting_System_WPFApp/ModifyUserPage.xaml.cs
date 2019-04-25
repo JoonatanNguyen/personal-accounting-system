@@ -24,7 +24,6 @@ namespace Personal_Accounting_System_WPFApp
         private void DisableUser_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             var today = DateTime.Now.ToString();
-            //DateTime newDate = DateTime.Parse(today);
 
             var adminService = new AdminService();
             adminService.DisableUser(new UserDto
@@ -36,17 +35,7 @@ namespace Personal_Accounting_System_WPFApp
 
         private void Modify_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            var adminService = new AdminService();
-            //var userData = adminService.SelectUserData(userId);
-            //NameBox.Text = "Test";
-
-            //foreach (var data in userData)
-            //{
-            //    NameBox.Text = data.Name;
-            //    BirthBox.Text = data.DateOfBirth;
-            //    EmailBox.Text = data.Email;
-            //}
-
+            var adminService = new AdminService();          
 
             adminService.ModifyUser(new UserDto
             {

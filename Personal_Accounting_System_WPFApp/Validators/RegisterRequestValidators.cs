@@ -1,5 +1,4 @@
-﻿
-using Personal_Accounting_System_WPFApp.Dtos;
+﻿using Personal_Accounting_System_WPFApp.Dtos;
 
 namespace Personal_Accounting_System_WPFApp.Validators
 {

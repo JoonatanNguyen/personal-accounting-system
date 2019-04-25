@@ -26,9 +26,5 @@ namespace Personal_Accounting_System_WPFApp.Services
         {
             adminRepository.ModifyUser(user, userId);
         }
-        //public List<UserDto> SelectUserData(int userId)
-        //{
-        //    return adminRepository.SelectUserData(userId);
-        //}
     }
 }
