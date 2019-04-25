@@ -110,8 +110,5 @@ namespace Personal_Accounting_System_WPFApp.Repositories
 
             return 0;
         }
-        
-
-
     }
 }

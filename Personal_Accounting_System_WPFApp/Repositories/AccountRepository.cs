@@ -20,7 +20,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 if (account.OtherEntitiesId.HasValue)
                 {
                     query = $"INSERT INTO Accounts (OwnerUsers, OtherOwnerEntities) " +
-                        $"VALUES ({account.UserId},  {account.OtherEntitiesId})";
+                        $"VALUES (NULL,  {account.OtherEntitiesId})";
                 } else
                 {
                     query = $"INSERT INTO Accounts (OwnerUsers, OtherOwnerEntities) " +

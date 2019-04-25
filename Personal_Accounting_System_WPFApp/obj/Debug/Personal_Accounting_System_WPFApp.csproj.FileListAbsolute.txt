@@ -127,3 +127,9 @@ C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\
 C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AddCategoryPage.baml
 C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ModifyCategoryPage.baml
 C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowCategoriesPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AddOtherEntitiesPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowOtherEntitiesPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AddOtherEntitiesPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowOtherEntitiesPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ModifyOtherEntitiesPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ModifyOtherEntitiesPage.baml

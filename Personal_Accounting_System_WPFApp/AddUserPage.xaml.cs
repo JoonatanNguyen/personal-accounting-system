@@ -32,6 +32,8 @@ namespace Personal_Accounting_System_WPFApp
             try
             {
                 var userService = new UserService();
+                var accountService = new AccountService();
+
                 userService.RegisterUser(new UserDto
                 {
                     Name = addName.Text,

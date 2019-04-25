@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\App.xaml
-16-95188588
+19-1173951813
 
-45-2060870342
+511866021760
 15-1393180297
-AddCategoryPage.xaml;AddUserPage.xaml;AdminWindow.xaml;CreatePaymentPage.xaml;ModifyCategoryPage.xaml;ModifyUserPage.xaml;LoginWindow.xaml;ParentsWindow.xaml;RegisterWindow.xaml;ShowCategoriesPage.xaml;ShowKidsTransaction.xaml;ShowUsersTransactions.xaml;ShowUsersTransactionsPage.xaml;TodaysTransaction.xaml;UserHomePage.xaml;ViewReportPage.xaml;
+AddCategoryPage.xaml;AddOtherEntitiesPage.xaml;AddUserPage.xaml;AdminWindow.xaml;CreatePaymentPage.xaml;ModifyCategoryPage.xaml;ModifyOtherEntitiesPage.xaml;ModifyUserPage.xaml;LoginWindow.xaml;ParentsWindow.xaml;RegisterWindow.xaml;ShowCategoriesPage.xaml;ShowKidsTransaction.xaml;ShowOtherEntitiesPage.xaml;ShowUsersTransactions.xaml;ShowUsersTransactionsPage.xaml;TodaysTransaction.xaml;UserHomePage.xaml;ViewReportPage.xaml;
 
 False
 

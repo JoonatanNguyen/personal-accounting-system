@@ -66,5 +66,10 @@ namespace Personal_Accounting_System_WPFApp
         {
             AdminHomePage.Content = new ShowCategoriesPage();
         }
+
+        private void ShowOtherEntities_Click(object sender, RoutedEventArgs e)
+        {
+            AdminHomePage.Content = new ShowOtherEntitiesPage();
+        }
     }
 }
