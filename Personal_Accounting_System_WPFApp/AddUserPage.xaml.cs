@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Personal_Accounting_System_WPFApp.Dtos;
+using Personal_Accounting_System_WPFApp.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,28 @@ namespace Personal_Accounting_System_WPFApp
         public AddUserPage()
         {
             InitializeComponent();
+        }
+
+        private void AddNewUser_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var userService = new UserService();
+                userService.RegisterUser(new UserDto
+                {
+                    Name = addName.Text,
+                    DateOfBirth = addDateOfBirth.Text,
+                    Email = addEmail.Text,
+                }, addPassword.Text);
+
+                ShowUsersTransactions showUserTransactions = new ShowUsersTransactions();
+                NavigationService.Navigate(showUserTransactions);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }

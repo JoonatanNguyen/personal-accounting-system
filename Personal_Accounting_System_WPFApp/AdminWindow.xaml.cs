@@ -61,5 +61,10 @@ namespace Personal_Accounting_System_WPFApp
             loginWindow.Show();
             this.Close();
         }
+
+        private void ModifyCategory_Click(object sender, RoutedEventArgs e)
+        {
+            AdminHomePage.Content = new ShowCategoriesPage();
+        }
     }
 }

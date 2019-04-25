@@ -12,14 +12,15 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Button x:Name="LogOutButton" Content="Log out" MinWidth="100" VerticalAlignment="Top" Height="30" Margin="684,14,10.286,0"  Click="LogOutButton_Click"/>
-        <StackPanel Margin="10,14,349.286,0" Orientation="Horizontal" Height="30" VerticalAlignment="Top">
+        <StackPanel Margin="10,14,266.636,0" Orientation="Horizontal" Height="30" VerticalAlignment="Top">
             <Button x:Name="CreatePayment" Content="Create Payment" MinWidth="100" Margin="0,0,0,0.286" Width="80" Click="CreatePayment_Click" />
             <Button x:Name="ViewDailyTransaction" Content="View today's transaction" MinWidth="100" Margin="5,0,0,0.286" Width="138" Click="ViewTodaysTransaction_Click"/>
             <Button x:Name="ViewReport" Content="View report" MinWidth="100" Margin="5,0,0,0" Click="ViewReport_Click"/>
             <Button x:Name="ShowUsers" Content="Show users" Width="75" Margin="5,0,0,0.286" Click="ShowUsers_Click"/>
-            <!--<Button x:Name="ChangeView" Content="Change View" Width="75" Margin="5,0,0,-0.286"/>-->
+            <Button x:Name="ShowCategory" Content="Show Category" HorizontalAlignment="Left" Width="85" Margin="5,0,0,-0.035" VerticalAlignment="Top" Height="30" Click="ModifyCategory_Click"/>
         </StackPanel>
         <Frame x:Name="AdminHomePage" Margin="0,60,-0.116,-0.266" Background="LightGray" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2"/>
-        <Label x:Name="UserEmail" Content="(User Email)" VerticalAlignment="Top" RenderTransformOrigin="1.588,0.634" Margin="512,18,150.286,0" Height="26"/>
+        <Label x:Name="UserEmail" Content="(User Email)" VerticalAlignment="Top" RenderTransformOrigin="1.588,0.634" Margin="533,16,129.636,0" Height="26"/>
+
     </Grid>
 </Window>

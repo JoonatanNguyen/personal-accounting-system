@@ -16,7 +16,7 @@
         <Button x:Name="Disable" Content="Disable User" Width="75" Margin="65,251,160,28" Click="DisableUser_Click"/>
         <TextBox x:Name="BirthBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="135,140,0,0"/>
         <TextBox x:Name="NameBox" Height="23" TextWrapping="Wrap" Text=""  VerticalAlignment="Top" Margin="135,81,45,0"/>
-        <TextBox x:Name="EmailBox" Height="23" TextWrapping="Wrap" Text="sdfg" VerticalAlignment="Top" Margin="135,206,45,0"/>
+        <TextBox x:Name="EmailBox" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="135,206,45.208,0"/>
         <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,81,0,0"/>
         <Label Content="Date of Birth" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,136,0,0" RenderTransformOrigin="0.464,0.555"/>
         <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,202,0,0"/>

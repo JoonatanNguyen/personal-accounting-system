@@ -10,7 +10,16 @@
       Title="AddUserPage">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Add User Page" VerticalAlignment="Top" Margin="68,146,0,0" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Add User Page" VerticalAlignment="Top" Margin="73,15,0,0" FontSize="22"/>
+        <TextBox x:Name="addName" HorizontalAlignment="Left" Height="23" Margin="129,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="addDateOfBirth" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="129,122,0,0"/>
+        <TextBox x:Name="addEmail" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="129,159,0,0"/>
+        <TextBox x:Name="addPassword" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="129,196,0,0"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="35,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date of Birth" HorizontalAlignment="Left" Margin="35,122,0,0" VerticalAlignment="Top"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="35,159,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="35,196,0,0" VerticalAlignment="Top"/>
+        <Button Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="174,247,0,0" Click="AddNewUser_Click"/>
 
     </Grid>
 </Page>

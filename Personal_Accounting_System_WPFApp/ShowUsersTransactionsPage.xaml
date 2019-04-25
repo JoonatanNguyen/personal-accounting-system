@@ -10,6 +10,10 @@
       Title="ShowUsersTransactionsPage">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Show Transactions Page" VerticalAlignment="Top" Margin="34,143,0,0" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Show Transactions Page" VerticalAlignment="Top" Margin="32,10,0,0" FontSize="22"/>
+        <DataGrid x:Name="UsersTransactions" HorizontalAlignment="Left" Height="163" Margin="10,127,0,0" VerticalAlignment="Top" Width="280"/>
+        <Button Content="Today" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top" Width="75" Click="UserTodaysTransaction_Click"/>
+        <Button Content="Monthly" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="111,79,0,0" Click="UserMonthlyTransaction_Click"/>
+        <Button Content="Anual" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="215,79,0,0" Click="UserAnualTransaction_Click"/>
     </Grid>
 </Page>

@@ -11,7 +11,6 @@ namespace Personal_Accounting_System_WPFApp.Dtos
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         public int FinancialTypeId { get; set; }
-
         public DateTime DisableTime { get; set; }
     }
 }

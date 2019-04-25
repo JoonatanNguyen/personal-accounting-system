@@ -32,7 +32,8 @@ namespace Personal_Accounting_System_WPFApp
             try
             {
                 var categoryService = new CategoryService();
-                categoryService.AddCategory(new CategoryDto {
+                categoryService.AddCategory(new CategoryDto
+                {
                     CategoryName = CategoryName.Text,
                     FinancialTypeId = int.Parse(FinancialTypeId.Text)
                 });
@@ -43,7 +44,6 @@ namespace Personal_Accounting_System_WPFApp
             {
                 Console.WriteLine(ex.Message);
             }
-            
         }
     }
 }

@@ -59,6 +59,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddCategoryPage.xaml.cs">
+      <DependentUpon>AddCategoryPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AddUserPage.xaml.cs">
       <DependentUpon>AddUserPage.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,9 @@
     <Compile Include="Dtos\TransactionDto.cs" />
     <Compile Include="Dtos\UserDto.cs" />
     <Compile Include="Dtos\UserRoleDto.cs" />
+    <Compile Include="ModifyCategoryPage.xaml.cs">
+      <DependentUpon>ModifyCategoryPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ModifyUserPage.xaml.cs">
       <DependentUpon>ModifyUserPage.xaml</DependentUpon>
     </Compile>
@@ -99,6 +105,9 @@
     <Compile Include="Services\TransactionService.cs" />
     <Compile Include="Services\UserRoleService.cs" />
     <Compile Include="Services\UserService.cs" />
+    <Compile Include="ShowCategoriesPage.xaml.cs">
+      <DependentUpon>ShowCategoriesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ShowKidsTransaction.xaml.cs">
       <DependentUpon>ShowKidsTransaction.xaml</DependentUpon>
     </Compile>
@@ -118,6 +127,10 @@
     <Compile Include="ViewReportPage.xaml.cs">
       <DependentUpon>ViewReportPage.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddCategoryPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AddUserPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -127,6 +140,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CreatePaymentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModifyCategoryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -148,6 +165,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RegisterWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShowCategoriesPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

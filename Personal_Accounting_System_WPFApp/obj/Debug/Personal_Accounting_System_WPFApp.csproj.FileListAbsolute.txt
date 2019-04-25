@@ -121,3 +121,9 @@ C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\
 C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.csproj.CopyComplete
 C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.exe
 C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\Personal_Accounting_System_WPFApp.pdb
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AddCategoryPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ModifyCategoryPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowCategoriesPage.g.cs
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\AddCategoryPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ModifyCategoryPage.baml
+C:\Users\Joonatan Nguyen\Documents\Insurance Project\personal-accounting-system\Personal_Accounting_System_WPFApp\obj\Debug\ShowCategoriesPage.baml

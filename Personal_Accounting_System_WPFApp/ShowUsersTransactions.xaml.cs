@@ -39,7 +39,10 @@ namespace Personal_Accounting_System_WPFApp
 
         private void ShowUsersTransactionPage_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            ShowUsersTransactionsPage showUsersTransactionsPage = new ShowUsersTransactionsPage();
+            var selectedItem = (UserRoleDto)UsersListBox.SelectedItems[0];
+            var userId = selectedItem.UserId;
+
+            ShowUsersTransactionsPage showUsersTransactionsPage = new ShowUsersTransactionsPage(userId);
             NavigationService.Navigate(showUsersTransactionsPage);
         }
 
