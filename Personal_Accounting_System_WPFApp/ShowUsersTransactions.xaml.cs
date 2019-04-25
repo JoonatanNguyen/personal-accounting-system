@@ -29,7 +29,10 @@ namespace Personal_Accounting_System_WPFApp
 
         private void ModifyUser_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            ModifyUserPage editUserPage = new ModifyUserPage();
+            var selectedItem = (UserRoleDto)UsersListBox.SelectedItems[0];
+            var userId = selectedItem.UserId;
+
+            ModifyUserPage editUserPage = new ModifyUserPage(userId);
             NavigationService.Navigate(editUserPage);
             
         }

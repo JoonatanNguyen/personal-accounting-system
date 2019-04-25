@@ -24,9 +24,18 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 conn.Open();
                 Console.WriteLine("Database Connected");
 
-                string query = $"INSERT INTO Transactions (Amount, Date, ProductName, Explanation, PayerAccount, ReceiverAccount, OwnerOfPurchase, CategoryId) " +
-                    $"VALUES ({transaction.Amount}, {transaction.Date} , '{transaction.ProductName}', '{transaction.Explanation}', {transaction.PayerAccount}, {transaction.ReceiverAccount}, {transaction.OwnerOfPurchase}, {transaction.CategoryId})";
-                SqlCommand command = new SqlCommand(query, conn);
+                //string query = $"INSERT INTO Transactions (Amount, Date, ProductName, Explanation, PayerAccount, ReceiverAccount, OwnerOfPurchase, CategoryId) " +
+                //    $"VALUES ({transaction.Amount}, {transaction.Date} , '{transaction.ProductName}', '{transaction.Explanation}', {transaction.PayerAccount}, {transaction.ReceiverAccount}, {transaction.OwnerOfPurchase}, {transaction.CategoryId})";
+                SqlCommand command = new SqlCommand("INSERT INTO Transactions (Amount, Date, ProductName, Explanation, PayerAccount, ReceiverAccount, OwnerOfPurchase, CategoryId) " +
+                    "VALUES (@amount, @date, @product, @explain, @payer, @receiver, @owner, @category)", conn);
+                command.Parameters.AddWithValue("@amount", transaction.Amount);
+                command.Parameters.AddWithValue("@date", transaction.Date);
+                command.Parameters.AddWithValue("@product", transaction.ProductName);
+                command.Parameters.AddWithValue("@explain", transaction.Explanation);
+                command.Parameters.AddWithValue("@payer", transaction.PayerAccount);
+                command.Parameters.AddWithValue("@receiver", transaction.ReceiverAccount);
+                command.Parameters.AddWithValue("@owner", transaction.OwnerOfPurchase);
+                command.Parameters.AddWithValue("@category", transaction.CategoryId);
                 command.ExecuteNonQuery();
                 Console.WriteLine("Data Stored Into Database");
                 conn.Close();

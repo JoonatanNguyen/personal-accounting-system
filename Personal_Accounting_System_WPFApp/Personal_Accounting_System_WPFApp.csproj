@@ -87,10 +87,12 @@
       <DependentUpon>RegisterWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Repositories\AccountRepository.cs" />
+    <Compile Include="Repositories\AdminRepository.cs" />
     <Compile Include="Repositories\TransactionRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Repositories\UserRolesRepository.cs" />
     <Compile Include="Services\AccountService.cs" />
+    <Compile Include="Services\AdminService.cs" />
     <Compile Include="Services\TransactionService.cs" />
     <Compile Include="Services\UserRoleService.cs" />
     <Compile Include="Services\UserService.cs" />
