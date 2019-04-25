@@ -11,7 +11,6 @@
 
     <Grid Margin="0,0,0,-67">
         <TextBox x:Name="AmountTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="145,10,0,0"/>
-        <!--<DatePicker x:Name="DatePicker"  HorizontalAlignment="Left" Margin="145,49,0,0" VerticalAlignment="Top" Width="120"/>-->
         <TextBox x:Name="ProductNameTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="145,87,0,0"/>
         <TextBox x:Name="ExplanationTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="145,125,0,0"/>
         <TextBox x:Name="PayerAccountTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="145,163,0,0"/>
@@ -27,12 +26,6 @@
         <Label Content="Receiver Account" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,196,0,0" Width="97"/>
         <Label Content="Owner of purchase" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,233,0,0" Width="110"/>
         <Label Content="Category" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,269,0,0" Width="97"/>
-        <TextBox x:Name="DateInpu" HorizontalAlignment="Left" Height="23" Margin="-254,47,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Calendar HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,89,-299,0" Height="29"/>
         <DatePicker x:Name="DateInput" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.512,1.328" Margin="145,49,0,0"/>
-
-
-
-
     </Grid>
 </Page>
