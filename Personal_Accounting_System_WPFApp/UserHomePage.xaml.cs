@@ -17,6 +17,10 @@ namespace Personal_Accounting_System_WPFApp
             UserEmail.Content = Email;
         }
 
+        public UserHomePage()
+        {
+        }
+
         private void CreatePayment_Click(object sender, RoutedEventArgs e)
         {
             HomePage.Content = new CreatePayment();

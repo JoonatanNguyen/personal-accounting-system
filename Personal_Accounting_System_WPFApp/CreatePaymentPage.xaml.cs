@@ -35,6 +35,9 @@ namespace Personal_Accounting_System_WPFApp
                 OwnerOfPurchase = int.Parse(OwnerOfPurchaseTextBox.Text),
                 CategoryId = int.Parse(CategoryTextBox.Text)
             });
+
+            UserHomePage userHomePage = new UserHomePage();
+            userHomePage.Show();
         }
     }
 }

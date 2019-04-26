@@ -16,14 +16,14 @@
         <TextBox x:Name="PayerAccountTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="145,163,0,0"/>
         <TextBox x:Name="ReceiverAccountTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="145,199,0,0"/>
         <TextBox x:Name="OwnerOfPurchaseTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="145,236,0,0"/>
-        <TextBox x:Name="CategoryTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="145,273,0,0"/>
-        <Button x:Name="CreateButton" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="132,321,0,0" Click="CreatePayment_Click"/>
+        <TextBox x:Name="CategoryTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Margin="145,273,0,0"/>
+        <Button x:Name="CreateButton" Content="Create" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="132,321,0,0" Click="CreatePayment_Click"/>
         <Label Content="Amount" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,7,0,0" Width="97"/>
         <Label Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,47,0,0" Width="97"/>
         <Label Content="Product Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,84,0,0" Width="97"/>
         <Label Content="Explanation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,122,0,0" Width="97"/>
         <Label Content="Payer Account" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,160,0,0" Width="97"/>
-        <Label Content="Receiver Account" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,196,0,0" Width="97"/>
+        <Label Content="Receiver Account" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,196,0,0" Width="110"/>
         <Label Content="Owner of purchase" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,233,0,0" Width="110"/>
         <Label Content="Category" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,269,0,0" Width="97"/>
         <DatePicker x:Name="DateInput" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.512,1.328" Margin="145,49,0,0"/>
