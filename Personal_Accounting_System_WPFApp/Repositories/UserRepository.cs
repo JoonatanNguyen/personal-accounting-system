@@ -56,6 +56,33 @@ namespace Personal_Accounting_System_WPFApp.Repositories
             return "";
         }
 
+        public bool IsUserAvailabe(int userId)
+        {
+            var conn = new SqlConnection { ConnectionString = Constants.ConnectionString };
+
+            try
+            {
+                conn.Open();
+                Console.WriteLine("Database Connected");
+                string query = $"SELECT UserId from Users WHERE UserId = {userId} AND DisableTime IS NULL";
+                SqlCommand command = new SqlCommand(query, conn);
+
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        return false;
+                    }
+                }
+                conn.Close();
+                return true;
+            }
+            catch (SqlException e)
+            {
+                throw e;
+            }
+        }
+
         public bool IsEmailAvailable(string email)
         {
             var conn = new SqlConnection { ConnectionString = Constants.ConnectionString };

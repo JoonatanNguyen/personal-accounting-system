@@ -46,7 +46,12 @@ namespace Personal_Accounting_System_WPFApp.Services
         public bool LoginUser(string email, string password)
         {
             var hash = userRepository.GetHash(email);
+            var currenUserId = userRepository.GetUserId(email);
 
+            if(userRepository.IsUserAvailabe(currenUserId))
+            {
+                return false;
+            }
             if (string.IsNullOrEmpty(hash) || !PasswordHasher.CompareHash(password, hash))
             {
                 return false;
