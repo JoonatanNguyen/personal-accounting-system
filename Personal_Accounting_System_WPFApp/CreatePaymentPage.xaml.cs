@@ -36,8 +36,8 @@ namespace Personal_Accounting_System_WPFApp
                 CategoryId = int.Parse(CategoryTextBox.Text)
             });
 
-            UserHomePage userHomePage = new UserHomePage();
-            userHomePage.Show();
+            TodaysTransaction todaysTransaction = new TodaysTransaction();
+            NavigationService.Navigate(todaysTransaction);
         }
     }
 }

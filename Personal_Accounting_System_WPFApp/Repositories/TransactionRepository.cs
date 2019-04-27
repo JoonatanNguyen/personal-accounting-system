@@ -60,7 +60,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 case TransactionShowOption.Today:
                     try
                     {
-                        var query = $@"select receiver.Name, Transactions.Amount, Date, sender.UserId from Transactions
+                        var query = $@"select receiver.Name, Transactions.Amount, Transactions.ProductName, Date, sender.UserId from Transactions
                             inner join Accounts senderAccount on Transactions.PayerAccount = senderAccount.Id
                             inner join Accounts receiverAccount on Transactions.ReceiverAccount = receiverAccount.Id
                             inner join Users sender on senderAccount.OwnerUsers = sender.UserId
@@ -78,6 +78,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                                 {
                                     ReceiverName = reader["Name"]?.ToString(),
                                     Amount = int.Parse(reader["Amount"]?.ToString() ?? "0"),
+                                    ProductName = reader["ProductName"]?.ToString(),
                                     Date = Convert.ToDateTime(reader["Date"]?.ToString()),
                                     PayerId = int.Parse(reader["UserId"]?.ToString() ?? "0")
                                 });
@@ -94,7 +95,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 case TransactionShowOption.Monthly:
                     try
                     {
-                        var query = $@"select receiver.Name, Transactions.Amount, Date, sender.UserId from Transactions
+                        var query = $@"select receiver.Name, Transactions.Amount, Transactions.ProductName, Date, sender.UserId from Transactions
                             inner join Accounts senderAccount on Transactions.PayerAccount = senderAccount.Id
                             inner join Accounts receiverAccount on Transactions.ReceiverAccount = receiverAccount.Id
                             inner join Users sender on senderAccount.OwnerUsers = sender.UserId
@@ -112,6 +113,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                                 {
                                     ReceiverName = reader["Name"]?.ToString(),
                                     Amount = int.Parse(reader["Amount"]?.ToString() ?? "0"),
+                                    ProductName = reader["ProductName"]?.ToString(),
                                     Date = Convert.ToDateTime(reader["Date"]?.ToString()),
                                     PayerId = int.Parse(reader["UserId"]?.ToString() ?? "0")
                                 });
@@ -128,7 +130,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 case TransactionShowOption.Anual:
                     try
                     {
-                        var query = $@"select receiver.Name, Transactions.Amount, Date, sender.UserId from Transactions
+                        var query = $@"select receiver.Name, Transactions.Amount, Transactions.ProductName, Date, sender.UserId from Transactions
                             inner join Accounts senderAccount on Transactions.PayerAccount = senderAccount.Id
                             inner join Accounts receiverAccount on Transactions.ReceiverAccount = receiverAccount.Id
                             inner join Users sender on senderAccount.OwnerUsers = sender.UserId
@@ -146,6 +148,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                                 {
                                     ReceiverName = reader["Name"]?.ToString(),
                                     Amount = int.Parse(reader["Amount"]?.ToString() ?? "0"),
+                                    ProductName = reader["ProductName"]?.ToString(),
                                     Date = Convert.ToDateTime(reader["Date"]?.ToString()),
                                     PayerId = int.Parse(reader["UserId"]?.ToString() ?? "0")
                                 });
@@ -177,7 +180,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 case TransactionShowOption.Today:
                     try
                     {
-                        var query = $@"select sender.Name, Transactions.Amount, Date, sender.UserId from Transactions
+                        var query = $@"select sender.Name, Transactions.Amount, Transactions.ProductName, Date, sender.UserId from Transactions
                             inner join Accounts senderAccount on Transactions.PayerAccount = senderAccount.Id
                             inner join Accounts receiverAccount on Transactions.ReceiverAccount = receiverAccount.Id
                             inner join Users sender on senderAccount.OwnerUsers = sender.UserId
@@ -195,6 +198,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                                 {
                                     PayerName = reader["Name"]?.ToString(),
                                     Amount = int.Parse(reader["Amount"]?.ToString() ?? "0"),
+                                    ProductName = reader["ProductName"]?.ToString(),
                                     Date = Convert.ToDateTime(reader["Date"]?.ToString()),
                                     PayerId = int.Parse(reader["UserId"]?.ToString() ?? "0")
                                 });
@@ -211,7 +215,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 case TransactionShowOption.Monthly:
                     try
                     {
-                        var query = $@"select sender.Name, Transactions.Amount, Date, sender.UserId from Transactions
+                        var query = $@"select sender.Name, Transactions.Amount, Transactions.ProductName, Date, sender.UserId from Transactions
                             inner join Accounts senderAccount on Transactions.PayerAccount = senderAccount.Id
                             inner join Accounts receiverAccount on Transactions.ReceiverAccount = receiverAccount.Id
                             inner join Users sender on senderAccount.OwnerUsers = sender.UserId
@@ -229,6 +233,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                                 {
                                     PayerName = reader["Name"]?.ToString(),
                                     Amount = int.Parse(reader["Amount"]?.ToString() ?? "0"),
+                                    ProductName = reader["ProductName"]?.ToString(),
                                     Date = Convert.ToDateTime(reader["Date"]?.ToString()),
                                     PayerId = int.Parse(reader["UserId"]?.ToString() ?? "0")
                                 });
@@ -245,7 +250,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 case TransactionShowOption.Anual:
                     try
                     {
-                        var query = $@"select sender.Name, Transactions.Amount, Date, sender.UserId from Transactions
+                        var query = $@"select sender.Name, Transactions.Amount, Transactions.ProductName, Date, sender.UserId from Transactions
                             inner join Accounts senderAccount on Transactions.PayerAccount = senderAccount.Id
                             inner join Accounts receiverAccount on Transactions.ReceiverAccount = receiverAccount.Id
                             inner join Users sender on senderAccount.OwnerUsers = sender.UserId
@@ -263,6 +268,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                                 {
                                     PayerName = reader["Name"]?.ToString(),
                                     Amount = int.Parse(reader["Amount"]?.ToString() ?? "0"),
+                                    ProductName = reader["ProductName"]?.ToString(),
                                     Date = Convert.ToDateTime(reader["Date"]?.ToString()),
                                     PayerId = int.Parse(reader["UserId"]?.ToString() ?? "0")
                                 });
