@@ -19,11 +19,12 @@ namespace Personal_Accounting_System_WPFApp
 
         public UserHomePage()
         {
+
         }
 
         private void CreatePayment_Click(object sender, RoutedEventArgs e)
         {
-            HomePage.Content = new CreatePayment();
+            HomePage.Content = new CreatePayment(Email);
         }
         private void ViewTodaysTransaction_Click(object sender, RoutedEventArgs e)
         {

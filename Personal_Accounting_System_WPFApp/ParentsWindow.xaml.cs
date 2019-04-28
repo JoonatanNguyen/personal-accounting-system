@@ -20,7 +20,7 @@ namespace Personal_Accounting_System_WPFApp
 
         private void CreatePayment_Click(object sender, RoutedEventArgs e)
         {
-            ParentHomePage.Content = new CreatePayment();
+            ParentHomePage.Content = new CreatePayment(Email);
         }
         private void ViewTodaysTransaction_Click(object sender, RoutedEventArgs e)
         {

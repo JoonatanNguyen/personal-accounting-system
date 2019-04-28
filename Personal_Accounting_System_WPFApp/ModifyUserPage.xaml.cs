@@ -31,6 +31,8 @@ namespace Personal_Accounting_System_WPFApp
                 UserId = userId,
                 DisableTime = DateTime.Parse(today)
             });
+            ShowUsersTransactions showuser = new ShowUsersTransactions();
+            NavigationService.Navigate(showuser);
         }
 
         private void Modify_Click(object sender, System.Windows.RoutedEventArgs e)

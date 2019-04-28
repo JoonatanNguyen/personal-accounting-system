@@ -51,7 +51,7 @@ namespace Personal_Accounting_System_WPFApp
             otherEntitiesService.ModifyOtherEntities(new OtherEntitiesDto
             {
                 OtherEntitiesName = ModifyOtherEntitiesName.Text,
-                OtherEntitiesId = otherEntitiesId
+                OtherEntitiesId = int.Parse(ModifyOtherEntitiesId.Text)
             });
 
             ShowOtherEntitiesPage showOtherEntitiesPage = new ShowOtherEntitiesPage();

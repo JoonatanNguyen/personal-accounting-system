@@ -10,7 +10,7 @@
 
     <Grid Margin="0,0,-77,0" HorizontalAlignment="Left" Width="377">
         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Today's transaction page" VerticalAlignment="Center" Margin="143,10,76,262" FontSize="14" Width="158" Height="28"/>
-        <DataGrid x:Name="TodaysTransactionShow" HorizontalAlignment="Left" Height="224" Margin="0,59,0,0" VerticalAlignment="Top" Width="377"/>
+        <DataGrid x:Name="TodaysTransactionShow" HorizontalAlignment="Left" Height="231" Margin="10,59,-21,0" VerticalAlignment="Top" Width="388"/>
 
     </Grid>
 </Page>

@@ -29,5 +29,11 @@
         <Button Content="Today" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="21" Margin="6.714,53,0,0" Grid.Column="1" Click="Today_Click"/>
         <Button Content="Monthly" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="86.714,53,0,0" Height="21" Click="Monthly_Click"/>
         <Button Content="Anual" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="166.714,54,0,0" Height="21" Click="Anual_Click"/>
+        <Label Content="Total expenses:" Margin="266.919,126,-111.543,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96" Grid.Column="1"/>
+        <Label x:Name="TotalExpense" HorizontalAlignment="Left" Margin="266.919,152,-76.543,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61" Grid.Column="1"/>
+        <Label Content="Total income:" Margin="390.919,126,-235.543,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96" Grid.Column="1"/>
+        <Label x:Name="TotalIncome" HorizontalAlignment="Left" Margin="390.919,157,-200.543,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61" Grid.Column="1"/>
+        <Label Content="Total balance:" Margin="266.919,182,-111.543,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96" Grid.Column="1"/>
+        <Label x:Name="TotalBalance" HorizontalAlignment="Left" Margin="266.919,208,-76.543,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61" Grid.Column="1"/>
     </Grid>
 </Page>

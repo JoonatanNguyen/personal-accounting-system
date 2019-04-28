@@ -27,5 +27,9 @@
         <Label Content="Owner of purchase" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,233,0,0" Width="110"/>
         <Label Content="Category" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,269,0,0" Width="97"/>
         <DatePicker x:Name="DateInput" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.512,1.328" Margin="145,49,0,0"/>
+        <Label Content="Your Account" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="357,29,-188.792,0" Width="132"/>
+        <Label x:Name="AccountId" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="527,29,-267.792,0" Width="41" Height="26"/>
+        <DataGrid x:Name="CategoryList" HorizontalAlignment="Left" Height="187" Margin="409,139,-295.792,0" VerticalAlignment="Top" Width="187"/>
+        <Label Content="Categories: " HorizontalAlignment="Left" Margin="409,104,-208.792,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>

@@ -36,5 +36,34 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 Console.WriteLine(e.Message);
             }
         }
+
+        public int GetAccountId(int userId)
+        {
+            var conn = new SqlConnection { ConnectionString = Constants.ConnectionString };
+
+            try
+            {
+                conn.Open();
+                Console.WriteLine("Database Connected");
+                string query = $@"select Accounts.OwnerUsers from Accounts 
+                                    inner join Users on Accounts.OwnerUsers = Users.UserId
+                                    Where Users.UserId = {userId}";
+                SqlCommand command = new SqlCommand(query, conn);
+
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        return int.Parse(reader["OwnerUsers"]?.ToString() ?? "0");
+                    }
+                }
+                conn.Close();
+            }
+            catch (SqlException e)
+            {
+                throw e;
+            }
+            return 0;
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace Personal_Accounting_System_WPFApp.Services
         {
             accountRepository.CreatAccount(account);
         }
+
+        public int GetAccountId(int userId)
+        {
+            return accountRepository.GetAccountId(userId);
+        }
     }
 }

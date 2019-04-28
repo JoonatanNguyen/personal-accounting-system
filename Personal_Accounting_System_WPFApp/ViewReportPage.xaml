@@ -4,15 +4,20 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Personal_Accounting_System_WPFApp"
-      mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      mc:Ignorable="d"
       Background="White"
-      Title="ViewReportPage">
+      Title="ViewReportPage" Height="341.682" Width="421.3">
 
-    <Grid>
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="View Report Page" VerticalAlignment="Center" Margin="80,10,79,269" FontSize="16" Width="141"/>
-        <DataGrid x:Name="ReportShowBox" HorizontalAlignment="Left" Height="206" Margin="17,84,0,0" VerticalAlignment="Top" Width="273"/>
+    <Grid Margin="0,0,0.179,-0.173">
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="View Report Page" VerticalAlignment="Center" Margin="119,10,161,311" FontSize="16" Width="141"/>
+        <DataGrid x:Name="ReportShowBox" Height="255" Margin="17,84,0,-39" VerticalAlignment="Top" HorizontalAlignment="Left" Width="331"/>
         <Button x:Name="MonthlyReportShowButton" Content="Monthly" HorizontalAlignment="Left" Margin="49,42,0,0" VerticalAlignment="Top" Width="75" Click="MonthlyReportShowButton_Click"/>
         <Button x:Name="AnualReportShowButton" Content="Anual" HorizontalAlignment="Left" Margin="177,42,0,0" VerticalAlignment="Top" Width="75" Click="AnualReportShowButton_Click"/>
+        <Label Content="Total expenses:" Margin="360,126,-35,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96"/>
+        <Label x:Name="TotalExpense" HorizontalAlignment="Left" Margin="360,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61"/>
+        <Label Content="Total income:" Margin="485,126,-160,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96"/>
+        <Label x:Name="TotalIncome" HorizontalAlignment="Left" Margin="485,152,-125,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61"/>
+        <Label Content="Total balance:" Margin="367,177,-42,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96"/>
+        <Label x:Name="TotalBalance" HorizontalAlignment="Left" Margin="367,211,-7,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61"/>
     </Grid>
 </Page>

@@ -10,7 +10,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
 {
     class OtherEntitiesRepository
     {
-        public void AddOtherEntities(string otherEntitiesName)
+        public void AddOtherEntities(OtherEntitiesDto otherEntities)
         {
             var conn = new SqlConnection { ConnectionString = Constants.ConnectionString };
 
@@ -19,7 +19,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 conn.Open();
                 Console.WriteLine("Database Connected");
 
-                string query = $"INSERT INTO OtherEntities (EntitiesName) VALUES ('{otherEntitiesName}')";
+                string query = $"INSERT INTO OtherEntities (Id, EntitiesName) VALUES ({otherEntities.OtherEntitiesId},'{otherEntities.OtherEntitiesName}')";
                 SqlCommand command = new SqlCommand(query, conn);
                 command.ExecuteNonQuery();
                 Console.WriteLine("Data Stored Into Database");

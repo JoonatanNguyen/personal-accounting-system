@@ -17,7 +17,7 @@
             <Button x:Name="ViewDailyTransaction" Content="View today's transaction" MinWidth="100" Margin="10,0,0,-0.04" Click="ViewTodaysTransaction_Click" Width="138"/>
             <Button x:Name="ViewReport" Content="View report" MinWidth="100" Margin="10,0,0,0" Click="ViewReport_Click"/>
         </StackPanel>
-        <Frame x:Name="HomePage" Margin="0,60,-0.116,-0.266" Background="LightGray" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2"/>
+        <Frame x:Name="HomePage" Margin="0,60,-0.116,-0.266" Background="White" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2"/>
         <Label x:Name="UserEmail" Content="(User Email)" VerticalAlignment="Top" RenderTransformOrigin="1.588,0.634" Margin="494,14,123.884,0" Height="26"/>
     </Grid>
 </Window>

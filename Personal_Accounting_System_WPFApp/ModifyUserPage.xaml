@@ -10,16 +10,14 @@
       Title="ModifyUserPage">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="74,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"><Run Text="Modify User Page"/><InlineUIContainer>
-                
-            </InlineUIContainer></TextBlock>
-        <Button x:Name="Disable" Content="Disable User" Width="75" Margin="65,251,160,28" Click="DisableUser_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,10,0,0" Text="Modify User Page" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"/>
         <TextBox x:Name="BirthBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="135,140,0,0"/>
         <TextBox x:Name="NameBox" Height="23" TextWrapping="Wrap" Text=""  VerticalAlignment="Top" Margin="135,81,45,0"/>
         <TextBox x:Name="EmailBox" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="135,206,45.208,0"/>
         <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,81,0,0"/>
         <Label Content="Date of Birth" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,136,0,0" RenderTransformOrigin="0.464,0.555"/>
         <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,202,0,0"/>
-        <Button x:Name="Modify" Content="Modify User" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="180,251,0,0" Click="Modify_Click"/>
+        <Button x:Name="Disable" Content="Disable User" Width="75" Height="20" Click="DisableUser_Click" Margin="180,247,45.208,28.208"/>
+        <Button x:Name="Modify" Content="Modify User" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="74,250,0,0" Click="Modify_Click"/>
     </Grid>
 </Page>

@@ -27,5 +27,14 @@ namespace Personal_Accounting_System_WPFApp.Services
 
             return incomeTransaction.Concat(outcomeTransaction);
         }
+
+        public int GetSumExpenses(int userId, TransactionShowOption _sumSelection)
+        {
+            return transactionRepository.GetSumExpenses(userId, _sumSelection);
+        }
+        public int GetSumIncome(int userId, TransactionShowOption _sumSelection)
+        {
+            return transactionRepository.GetSumIncome(userId, _sumSelection);
+        }
     }
 }

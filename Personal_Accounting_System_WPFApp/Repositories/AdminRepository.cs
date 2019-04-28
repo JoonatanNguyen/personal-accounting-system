@@ -37,7 +37,7 @@ namespace Personal_Accounting_System_WPFApp.Repositories
                 conn.Open();
                 Console.WriteLine("Database Connected");
 
-                string query = $"UPDATE Users SET Name = '{user.Name}', DateOfBirth = {user.DateOfBirth}, Email = '{user.Email}' WHERE UserId = {userId}";
+                string query = $"UPDATE Users SET Name = '{user.Name}', DateOfBirth = '{user.DateOfBirth}', Email = '{user.Email}' WHERE UserId = {userId}";
                 SqlCommand command = new SqlCommand(query, conn);
                 command.ExecuteNonQuery();
                 Console.WriteLine("Data Stored Into Database");

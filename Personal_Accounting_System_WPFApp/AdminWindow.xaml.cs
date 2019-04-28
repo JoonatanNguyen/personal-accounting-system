@@ -31,7 +31,7 @@ namespace Personal_Accounting_System_WPFApp
 
         private void CreatePayment_Click(object sender, RoutedEventArgs e)
         {
-            AdminHomePage.Content = new CreatePayment();
+            AdminHomePage.Content = new CreatePayment(Email);
         }
 
         private void ViewTodaysTransaction_Click(object sender, RoutedEventArgs e)

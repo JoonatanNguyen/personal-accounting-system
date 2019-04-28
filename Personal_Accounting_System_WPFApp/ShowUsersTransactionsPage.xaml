@@ -15,5 +15,11 @@
         <Button Content="Today" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top" Width="75" Click="UserTodaysTransaction_Click"/>
         <Button Content="Monthly" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="111,79,0,0" Click="UserMonthlyTransaction_Click"/>
         <Button Content="Anual" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="215,79,0,0" Click="UserAnualTransaction_Click"/>
+        <Label Content="Total expenses:" Margin="360,126,-35,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96"/>
+        <Label x:Name="TotalExpense" HorizontalAlignment="Left" Margin="360,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61"/>
+        <Label Content="Total income:" Margin="485,126,-160,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96"/>
+        <Label x:Name="TotalIncome" HorizontalAlignment="Left" Margin="485,152,-125,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61"/>
+        <Label Content="Total balance:" Margin="367,177,-42,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96"/>
+        <Label x:Name="TotalBalance" HorizontalAlignment="Left" Margin="367,211,-7,0" VerticalAlignment="Top" RenderTransformOrigin="0.819,0.259" Height="25" Width="61"/>
     </Grid>
 </Page>

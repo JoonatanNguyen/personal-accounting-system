@@ -13,9 +13,9 @@ namespace Personal_Accounting_System_WPFApp.Services
             otherEntitiesRepository = new OtherEntitiesRepository();
         }
         
-        public void AddOtherEntities(string otherEntitiesName)
+        public void AddOtherEntities(OtherEntitiesDto otherEntities)
         {
-            otherEntitiesRepository.AddOtherEntities(otherEntitiesName);
+            otherEntitiesRepository.AddOtherEntities(otherEntities);
         }
 
         public List<OtherEntitiesDto> GetOtherEntities()

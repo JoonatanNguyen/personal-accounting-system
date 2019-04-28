@@ -33,7 +33,7 @@ namespace Personal_Accounting_System_WPFApp
             {
                 table.Rows.Add(transaction.Date.ToString("d"),
                     string.IsNullOrEmpty(transaction.PayerName) ? transaction.ReceiverName : transaction.PayerName,
-                    (transaction.PayerId == userId) ? "-" + transaction.Amount : "+" + transaction.Amount, transaction.ProductName);
+                    (transaction.PayerId == userId) ? "-" + (double)transaction.Amount/100 : "+" + (double)transaction.Amount/100, transaction.ProductName);
             }
 
             TodaysTransactionShow.ItemsSource = table.DefaultView;

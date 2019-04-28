@@ -84,5 +84,10 @@ namespace Personal_Accounting_System_WPFApp.Services
 
             return true;
         }
+
+        public int GetUserId(string email)
+        {
+            return userRepository.GetUserId(email);
+        }
     }
 }

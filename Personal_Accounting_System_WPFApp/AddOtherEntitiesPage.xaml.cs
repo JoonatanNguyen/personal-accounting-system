@@ -32,7 +32,10 @@ namespace Personal_Accounting_System_WPFApp
             var otherEntitiesService = new OtherEntitiesService();
             var accountService = new AccountService();
 
-            otherEntitiesService.AddOtherEntities(AddOtherEntitiesName.Text);
+            otherEntitiesService.AddOtherEntities(new OtherEntitiesDto {
+                OtherEntitiesId = int.Parse(AddOtherEntitiesId.Text),
+                OtherEntitiesName = AddOtherEntitiesName.Text
+            });
 
             var otherEntitiesId = otherEntitiesService.GetOtherEntitiesId(AddOtherEntitiesName.Text);
             

@@ -13,6 +13,8 @@
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Add Other Entities Page" VerticalAlignment="Top" Margin="85,16,0,0"/>
         <Label Content="Other Entities Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,125,0,0"/>
         <TextBox x:Name="AddOtherEntitiesName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="154,125,0,0"/>
+        <Label Content="Other Entities Id:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,83,0,0"/>
+        <TextBox x:Name="AddOtherEntitiesId" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="154,83,0,0"/>
         <Button Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="154,197,0,0" Click="AddNewOtherEntities_Click"/>
     </Grid>
 </Page>
